@@ -1,0 +1,160 @@
+header {
+  color: rgb(0, 102, 128);
+  position: fixed;
+  display: inline-flex;
+  align-items: center;
+  top: 0%;
+  font-family: "Shadows Into Light";
+}
+
+body {
+  background-color: rgb(140, 188, 201);
+  background-image: url("berbera sea2.jpg");
+  margin: 0;
+  font-family: "Shadows Into Light";
+  align-items: center;
+}
+
+#intro {
+  align-items: center;
+  margin-top: 10%;
+}
+
+h2 {
+  color: rgb(0, 102, 128);
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Shadows Into Light";
+}
+.section1 {
+  background-color: rgb(245, 245, 245);
+  width: auto;
+  height: 200px;
+}
+
+.section2 {
+  background-color: whitesmoke;
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+.section3 {
+  background-color: whitesmoke;
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+.section4 {
+  background-color: whitesmoke;
+  width: auto;
+  height: 250px;
+  align-items: center;
+}
+#sectionwool {
+  background-color: whitesmoke;
+  width: auto;
+  height: 250px;
+  align-items: center;
+}
+#aboutme {
+  background-color: whitesmoke;
+  width: auto;
+  height: 300px;
+  align-items: center;
+}
+#sectionquiz {
+  background-color: whitesmoke;
+  width: auto;
+  height: 250px;
+  align-items: center;
+}
+#sectioncipher {
+  background-color: whitesmoke;
+  width: auto;
+  height: 250px;
+  align-items: center;
+}
+form {
+  margin-top: 5%;
+  margin-left: 1%;
+}
+button {
+  align-items: center;
+  justify-content: center;
+}
+.nav-bar {
+  color:whitesmoke;
+  text-align: center;
+  display: flex;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+.nav-bar a:hover {
+  background-color: rgb(0, 102, 128);
+  color: whitesmoke;
+  cursor: pointer;
+}
+.nav-bar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+p {
+  margin-left: 15%;
+  font-size: 20px;
+}
+.contact-details {
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.comments {
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  font-size: 20px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  margin-left: 1%;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-left: 1%;
+}
+#myBtn {
+  align-items: center;
+}
+
+footer {
+  color: whitesmoke;
+  display: inline-flex;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  filter: grayscale(1);
+}
